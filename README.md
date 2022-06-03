@@ -1,12 +1,8 @@
-![Banner](https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Banner.svg)
-
 It has been predicted that as global weather patterns begin to vary due to climate change, crop diseases are likely to become more severe and widespread. Hence, it is important to develop systems that quickly and easily analyze crops and identify a particular disease in order to limit further crop damage. Rice is one of the most popular staple food crops grown mainly across Asia, Africa and South America but is susceptible to a variety of pests and diseases.
 
 Physical characteristics such as decolorization of leaves can be used to identify several diseases that may affect the rice crop. For example, in the case of Brown-Spot, a fungal disease that affects the protective sheath of the leaves, the leaves are covered with several small oval brown spots with gray centers whereas, in the case of Leaf-Blast, the leaves are covered with larger brown lesions. Similarly, the leaves affected by the Rice Hispa pest can be identified by the long trail marks that develop on the surface of the leaf.
 
 A Convolutional Neural Network (CNN) is trained on a dataset consisting of images of leaves of both healthy and diseased rice plants. The images can be categorized into four different classes namely Brown-Spot, Rice Hispa, Leaf-Blast and Healthy. The dataset consists of 2092 different images with each class containing 523 images. Each image consists of a single healthy or diseased leaf placed against a white background.
-
-![Diseases](https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Diseases_2.svg)
 
 ## Features  
  - Classify diseased images of Rice leaves using Transfer Learning
@@ -67,19 +63,3 @@ We also tested the accuracy of MobileNet-v2 on cropped images of Rice Hispa wher
 <img src="https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/hispa_cropped.png" width="50%" height="50%">
 </p>
 
-## Conclusion
-We described how we used transfer learning to classify images of diseased and healthy rice leaves. MobileNet-v2 had an accuracy of 62.5% and is best suited for mobile applications with memory and processing constraints. For cropped images of Rice Hispa, we observed a significant increase in the classification accuracy over uncropped test samples. Hence, we propose that real-world implementations of rice disease detection using convolutional neural networks must crop the test images to remove background noise in order to improve the
-
-## References
-1. [Santanu Phadikar et al.,“Rice diseases classification using feature selection and rule generation techniques,” Computers and Electronics in Agriculture, vol. 90, Jan. 2013.](https://www.sciencedirect.com/science/article/pii/S016816991200258X)
-
-
-## Contributing
-Are you a programmer, engineer or hobbyist who has a great idea for a new feature in this project? Maybe you have a good idea for a bug fix? Feel free to grab our code & schematics from Github and tinker with it. Don't forget to smash those ⭐️ & Pull Request buttons. [Contributor List](https://github.com/jonathanrjpereira/Rice-Disease-Classification/graphs/contributors)
-
-Made with ❤️ by [Jonathan Pereira](https://github.com/jonathanrjpereira)
-
-Banner Logo is Designed by [Freepik](https://www.freepik.com/) from [www.flaticon.com](www.flaticon.com)
-Original Dataset by Huy Minh Do on [Kaggle](https://www.kaggle.com/minhhuy2810/rice-diseases-image-dataset).
-
-[1]: https://www.sciencedirect.com/science/article/pii/S016816991200258X "Santanu Phadikar et al.,“Rice diseases classification using feature selection and rule generation techniques,” Computers and Electronics in Agriculture, vol. 90, Jan. 2013."
